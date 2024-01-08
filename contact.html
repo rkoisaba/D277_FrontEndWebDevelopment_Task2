@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/script.js"></script>
+    
+</head>
+<body>
+
+    <header class = "city-header">
+       <h1>Contact US </h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cities/raleigh.html">Raleigh</a></li>
+            <li><a href="cities/charlotte.html">Charlotte</a></li>
+            <li><a href="cities/asheville.html">Asheville</a></li>
+           
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <section>
+                <h2>Contact Us</h2>
+                <form onsubmit="return validateEmail()">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" placeholder="Enter your first name"><br>
+
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" placeholder="Enter your last name"><br>
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+
+                    <label for="confirm-email">Confirm Email Address:</label>
+                    <input type="email" id="confirm-email" name="confirm-email" placeholder="Confirm your email"><br>
+
+                    <label for="question">Your Question:</label>
+                    <textarea id="question" name="question" placeholder="Type your question here"></textarea><br>
+
+                    <input type="submit" id="submit-button" value="Submit">
+                </form>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cities/raleigh.html">Raleigh</a></li>
+                <li><a href="cities/charlotte.html">Charlotte</a></li>
+                <li><a href="cities/asheville.html">Asheville</a></li>
+               
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>
